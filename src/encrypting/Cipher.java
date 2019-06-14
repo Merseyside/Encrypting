@@ -353,7 +353,7 @@ public class Cipher {
 
     private sub_shamir getKeys(long p){
         long C, D;
-        while(true){
+        while(true) {
             C = enc.random(1, Library.FIRST_SCOPE);
             if ((C<p)&&(enc.evklid(p-1,C) == 1)){
                 D = enc.Evklid2(p-1, C);

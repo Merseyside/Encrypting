@@ -71,13 +71,13 @@ public class Library{
         secondKoef = x1;
         return d;
     }
-//
-//    public long Evklid2(long modulus, long base)
-//    {
-//        evklid u = new evklid(modulus, 0);
-//        evklid v = new evklid(base, 1);
-//        evklid t = new evklid();
-//        evklid prelast = new evklid();
+
+    public long Evklid2(long modulus, long base)
+    {
+//        Evklid u = new Evklid(modulus, 0);
+//        Evklid v = new Evklid(base, 1);
+//        Evklid t = new Evklid();
+//        Evklid prelast = new Evklid();
 //        long q = 0;
 //        while(v.first !=0)
 //        {
@@ -94,7 +94,9 @@ public class Library{
 //        }
 //        if (prelast.second<0) prelast.second+=modulus;
 //        return prelast.second;
-//    }
+
+        return 0;
+        }
 /*Диффи-Хелман*/
     long DiffiHelman(long g, long p)
     {

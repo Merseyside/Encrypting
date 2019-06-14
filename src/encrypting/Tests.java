@@ -96,8 +96,8 @@ public class Tests {
             }
         }
         System.out.println(open_d);*/
-        String path = "D://Ucheba//4 курс//Защита информации//lab1//stuff//";
-        String filename = "graf.txt";
+//        String path = "D://Ucheba//4 курс//Защита информации//lab1//stuff//";
+//        String filename = "graf.txt";
         Graf graf = new Graf(path + filename);
 
 
